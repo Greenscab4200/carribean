@@ -1,0 +1,61 @@
+/* CSS Document */
+
+body, header, nav, main, footer, h1, div, img, ul, h4, h6{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1 {
+    background-color:#1E53BD;
+    text-align: center;
+    color: crimson;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+section {
+	background-color: #00C8FF;
+
+}
+
+nav {
+    background-color:transparent;
+	opacity: inherit;
+}
+
+nav ul {
+    color: #0C437F;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    color: #F5B61A;
+    display: inline;
+}
+
+nav li a {
+    color: crimson;
+	font-weight: bolder;
+    text-decoration: none;
+    padding: 5%;
+	opacity: inherit;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+nav li:hover {
+    
+}
+
+footer {
+    background-color: #1E53BD;
+    text-align: center;
+}
+
+#hero img {
+    width: 100%;
+    max-height: 700px;
+    display: block;
+}
+.nbg {
+}
