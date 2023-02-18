@@ -1,20 +1,24 @@
 /* CSS Document */
 
-body, header, nav, main, footer, h1, div, img, ul, h4, h6{
+* {
     padding: 0;
     margin: 0;
     border: 0;
 }
 
+body {
+	
+}
+
 h1 {
-    background-color:#1E53BD;
+    background-color:#305296;
     text-align: center;
     color: crimson;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-family: "Baskerville", "Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", "serif";
 }
 
 section {
-	background-color: #00C8FF;
+	background-color: #44AAA5;
 
 }
 
@@ -24,7 +28,7 @@ nav {
 }
 
 nav ul {
-    color: #0C437F;
+    color: #426AC3;
     list-style-type: none;
     text-align: center;
 }
@@ -47,15 +51,96 @@ nav li:hover {
     
 }
 
+.home {
+	min-height: 400px;
+	width: 100%;
+	background-image: url("../images/home_Beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 50%;
+}
+
+main p {
+	padding: 0 2%;
+	margin: 0 2%;
+	text-align: center;
+	background-color: rgb(256, 256, 256, 70%);
+	font-size: 1.2em;
+	padding-top: auto;
+	border-radius: 15px;
+}
+
+.grace {
+	min-height: 400px;
+	width: 100%;
+	background-image: url("../images/GraceBayBeach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 50%;
+}
+
+.shoal {
+	min-height: 400px;
+	width: 100%;
+	background-image: url("../images/ShoalBayEast.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 50%;
+}
+
+.trunk {
+	min-height: 400px;
+	width: 100%;
+	background-image: url("../images/trunkBayBeach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 50%;
+}
+
+.news {
+	min-height: 400px;
+	width: 100%;
+	background-image: url("../images/newsletter_Beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 50%;
+}
+
+table {
+	margin: 0 auto;
+}
+
+input {
+	padding: 2px 0;
+	background-color: #ccc;
+}
+
+form {
+	background-color: rgb(256, 256, 256, 70%);
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
+	border-radius: 10px;
+}
+
+.btn {
+	font-size: .7em;
+	padding: 2px 5px;
+	border: 2px solid #111;
+	border-radius: 5px;
+}
+
+
+blockquote {
+	font-size: 3em;
+	text-align: center;
+	padding: 1%;
+}
+
 footer {
-    background-color: #1E53BD;
+    background-color: #305296;
     text-align: center;
 }
 
-#hero img {
-    width: 100%;
-    max-height: 700px;
-    display: block;
-}
 .nbg {
 }
